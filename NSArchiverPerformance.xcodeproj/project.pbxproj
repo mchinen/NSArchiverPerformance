@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF10EE951ACF2481008DD1E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EE941ACF2481008DD1E4 /* main.m */; };
+		CF10EE981ACF2481008DD1E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EE971ACF2481008DD1E4 /* AppDelegate.m */; };
+		CF10EE9B1ACF2481008DD1E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EE9A1ACF2481008DD1E4 /* ViewController.m */; };
+		CF10EE9E1ACF2481008DD1E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10EE9C1ACF2481008DD1E4 /* Main.storyboard */; };
+		CF10EEA01ACF2481008DD1E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF10EE9F1ACF2481008DD1E4 /* Images.xcassets */; };
+		CF10EEA31ACF2481008DD1E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF10EEA11ACF2481008DD1E4 /* LaunchScreen.xib */; };
+		CF10EEAF1ACF2481008DD1E4 /* NSArchiverPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EEAE1ACF2481008DD1E4 /* NSArchiverPerformanceTests.m */; };
+		CF10EEB91ACF24CD008DD1E4 /* RootCodingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EEB81ACF24CD008DD1E4 /* RootCodingObject.m */; };
+		CF10EEC51ACF3092008DD1E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10EEC41ACF3092008DD1E4 /* Foundation.framework */; };
+		CF10EEC71ACF309A008DD1E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10EEC61ACF309A008DD1E4 /* CoreGraphics.framework */; };
+		CF10EEC91ACF30C8008DD1E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10EEC81ACF30C8008DD1E4 /* UIKit.framework */; };
+		CF10EED01ACF538B008DD1E4 /* NSKeylessArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EECD1ACF538B008DD1E4 /* NSKeylessArchiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CF10EED11ACF538B008DD1E4 /* NSKeylessUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CF10EECF1ACF538B008DD1E4 /* NSKeylessUnarchiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF10EEA91ACF2481008DD1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF10EE871ACF2481008DD1E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF10EE8E1ACF2481008DD1E4;
+			remoteInfo = NSArchiverPerformance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF10EE8F1ACF2481008DD1E4 /* NSArchiverPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSArchiverPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10EE931ACF2481008DD1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10EE941ACF2481008DD1E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF10EE961ACF2481008DD1E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF10EE971ACF2481008DD1E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF10EE991ACF2481008DD1E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF10EE9A1ACF2481008DD1E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF10EE9D1ACF2481008DD1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF10EE9F1ACF2481008DD1E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF10EEA21ACF2481008DD1E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CF10EEA81ACF2481008DD1E4 /* NSArchiverPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSArchiverPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10EEAD1ACF2481008DD1E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10EEAE1ACF2481008DD1E4 /* NSArchiverPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArchiverPerformanceTests.m; sourceTree = "<group>"; };
+		CF10EEB81ACF24CD008DD1E4 /* RootCodingObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCodingObject.m; sourceTree = "<group>"; };
+		CF10EEBA1ACF24E0008DD1E4 /* RootCodingObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootCodingObject.h; sourceTree = "<group>"; };
+		CF10EEC01ACF2F4D008DD1E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CF10EEC41ACF3092008DD1E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF10EEC61ACF309A008DD1E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF10EEC81ACF30C8008DD1E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF10EECC1ACF538B008DD1E4 /* NSKeylessArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKeylessArchiver.h; sourceTree = "<group>"; };
+		CF10EECD1ACF538B008DD1E4 /* NSKeylessArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKeylessArchiver.m; sourceTree = "<group>"; };
+		CF10EECE1ACF538B008DD1E4 /* NSKeylessUnarchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKeylessUnarchiver.h; sourceTree = "<group>"; };
+		CF10EECF1ACF538B008DD1E4 /* NSKeylessUnarchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKeylessUnarchiver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF10EE8C1ACF2481008DD1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10EEC91ACF30C8008DD1E4 /* UIKit.framework in Frameworks */,
+				CF10EEC71ACF309A008DD1E4 /* CoreGraphics.framework in Frameworks */,
+				CF10EEC51ACF3092008DD1E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10EEA51ACF2481008DD1E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF10EE861ACF2481008DD1E4 = {
+			isa = PBXGroup;
+			children = (
+				CF10EEC81ACF30C8008DD1E4 /* UIKit.framework */,
+				CF10EEC61ACF309A008DD1E4 /* CoreGraphics.framework */,
+				CF10EEC41ACF3092008DD1E4 /* Foundation.framework */,
+				CF10EEBB1ACF2F4D008DD1E4 /* NSArchiver-iOS */,
+				CF10EE911ACF2481008DD1E4 /* NSArchiverPerformance */,
+				CF10EEAB1ACF2481008DD1E4 /* NSArchiverPerformanceTests */,
+				CF10EE901ACF2481008DD1E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF10EE901ACF2481008DD1E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EE8F1ACF2481008DD1E4 /* NSArchiverPerformance.app */,
+				CF10EEA81ACF2481008DD1E4 /* NSArchiverPerformanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF10EE911ACF2481008DD1E4 /* NSArchiverPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EE961ACF2481008DD1E4 /* AppDelegate.h */,
+				CF10EE971ACF2481008DD1E4 /* AppDelegate.m */,
+				CF10EE991ACF2481008DD1E4 /* ViewController.h */,
+				CF10EE9A1ACF2481008DD1E4 /* ViewController.m */,
+				CF10EE9C1ACF2481008DD1E4 /* Main.storyboard */,
+				CF10EE9F1ACF2481008DD1E4 /* Images.xcassets */,
+				CF10EEA11ACF2481008DD1E4 /* LaunchScreen.xib */,
+				CF10EE921ACF2481008DD1E4 /* Supporting Files */,
+				CF10EEB81ACF24CD008DD1E4 /* RootCodingObject.m */,
+				CF10EEBA1ACF24E0008DD1E4 /* RootCodingObject.h */,
+			);
+			path = NSArchiverPerformance;
+			sourceTree = "<group>";
+		};
+		CF10EE921ACF2481008DD1E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EE931ACF2481008DD1E4 /* Info.plist */,
+				CF10EE941ACF2481008DD1E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF10EEAB1ACF2481008DD1E4 /* NSArchiverPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EEAE1ACF2481008DD1E4 /* NSArchiverPerformanceTests.m */,
+				CF10EEAC1ACF2481008DD1E4 /* Supporting Files */,
+			);
+			path = NSArchiverPerformanceTests;
+			sourceTree = "<group>";
+		};
+		CF10EEAC1ACF2481008DD1E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EEAD1ACF2481008DD1E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF10EEBB1ACF2F4D008DD1E4 /* NSArchiver-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CF10EECC1ACF538B008DD1E4 /* NSKeylessArchiver.h */,
+				CF10EECD1ACF538B008DD1E4 /* NSKeylessArchiver.m */,
+				CF10EECE1ACF538B008DD1E4 /* NSKeylessUnarchiver.h */,
+				CF10EECF1ACF538B008DD1E4 /* NSKeylessUnarchiver.m */,
+				CF10EEC01ACF2F4D008DD1E4 /* README.md */,
+			);
+			path = "NSArchiver-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF10EE8E1ACF2481008DD1E4 /* NSArchiverPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF10EEB21ACF2481008DD1E4 /* Build configuration list for PBXNativeTarget "NSArchiverPerformance" */;
+			buildPhases = (
+				CF10EE8B1ACF2481008DD1E4 /* Sources */,
+				CF10EE8C1ACF2481008DD1E4 /* Frameworks */,
+				CF10EE8D1ACF2481008DD1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSArchiverPerformance;
+			productName = NSArchiverPerformance;
+			productReference = CF10EE8F1ACF2481008DD1E4 /* NSArchiverPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF10EEA71ACF2481008DD1E4 /* NSArchiverPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF10EEB51ACF2481008DD1E4 /* Build configuration list for PBXNativeTarget "NSArchiverPerformanceTests" */;
+			buildPhases = (
+				CF10EEA41ACF2481008DD1E4 /* Sources */,
+				CF10EEA51ACF2481008DD1E4 /* Frameworks */,
+				CF10EEA61ACF2481008DD1E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF10EEAA1ACF2481008DD1E4 /* PBXTargetDependency */,
+			);
+			name = NSArchiverPerformanceTests;
+			productName = NSArchiverPerformanceTests;
+			productReference = CF10EEA81ACF2481008DD1E4 /* NSArchiverPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF10EE871ACF2481008DD1E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					CF10EE8E1ACF2481008DD1E4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CF10EEA71ACF2481008DD1E4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CF10EE8E1ACF2481008DD1E4;
+					};
+				};
+			};
+			buildConfigurationList = CF10EE8A1ACF2481008DD1E4 /* Build configuration list for PBXProject "NSArchiverPerformance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF10EE861ACF2481008DD1E4;
+			productRefGroup = CF10EE901ACF2481008DD1E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF10EE8E1ACF2481008DD1E4 /* NSArchiverPerformance */,
+				CF10EEA71ACF2481008DD1E4 /* NSArchiverPerformanceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF10EE8D1ACF2481008DD1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10EE9E1ACF2481008DD1E4 /* Main.storyboard in Resources */,
+				CF10EEA31ACF2481008DD1E4 /* LaunchScreen.xib in Resources */,
+				CF10EEA01ACF2481008DD1E4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10EEA61ACF2481008DD1E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF10EE8B1ACF2481008DD1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10EEB91ACF24CD008DD1E4 /* RootCodingObject.m in Sources */,
+				CF10EED01ACF538B008DD1E4 /* NSKeylessArchiver.m in Sources */,
+				CF10EE9B1ACF2481008DD1E4 /* ViewController.m in Sources */,
+				CF10EE981ACF2481008DD1E4 /* AppDelegate.m in Sources */,
+				CF10EED11ACF538B008DD1E4 /* NSKeylessUnarchiver.m in Sources */,
+				CF10EE951ACF2481008DD1E4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10EEA41ACF2481008DD1E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10EEAF1ACF2481008DD1E4 /* NSArchiverPerformanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF10EEAA1ACF2481008DD1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF10EE8E1ACF2481008DD1E4 /* NSArchiverPerformance */;
+			targetProxy = CF10EEA91ACF2481008DD1E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF10EE9C1ACF2481008DD1E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10EE9D1ACF2481008DD1E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF10EEA11ACF2481008DD1E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10EEA21ACF2481008DD1E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF10EEB01ACF2481008DD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF10EEB11ACF2481008DD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF10EEB31ACF2481008DD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSArchiverPerformance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF10EEB41ACF2481008DD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NSArchiverPerformance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF10EEB61ACF2481008DD1E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSArchiverPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSArchiverPerformance.app/NSArchiverPerformance";
+			};
+			name = Debug;
+		};
+		CF10EEB71ACF2481008DD1E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NSArchiverPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSArchiverPerformance.app/NSArchiverPerformance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF10EE8A1ACF2481008DD1E4 /* Build configuration list for PBXProject "NSArchiverPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10EEB01ACF2481008DD1E4 /* Debug */,
+				CF10EEB11ACF2481008DD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF10EEB21ACF2481008DD1E4 /* Build configuration list for PBXNativeTarget "NSArchiverPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10EEB31ACF2481008DD1E4 /* Debug */,
+				CF10EEB41ACF2481008DD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF10EEB51ACF2481008DD1E4 /* Build configuration list for PBXNativeTarget "NSArchiverPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10EEB61ACF2481008DD1E4 /* Debug */,
+				CF10EEB71ACF2481008DD1E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF10EE871ACF2481008DD1E4 /* Project object */;
+}
