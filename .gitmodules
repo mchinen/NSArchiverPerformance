@@ -1,0 +1,3 @@
+[submodule "NSArchiver-iOS"]
+	path = NSArchiver-iOS
+	url = https://github.com/mchinen/NSArchiver-iOS.git
