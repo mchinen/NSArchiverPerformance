@@ -71,7 +71,7 @@
         
         if (outRoot) {
             NSTimeInterval decodeSecs = [[NSDate date] timeIntervalSinceDate:decodeStartTime];
-            NSTimeInterval encodeSecs = [[NSDate date] timeIntervalSinceDate:encodeStartTime];
+            NSTimeInterval encodeSecs = [decodeStartTime timeIntervalSinceDate:encodeStartTime];
             NSLog (@"%@ encoding time %f decoding time %f", archiverClass, encodeSecs, decodeSecs);
         } else {
             NSLog (@"%@ failed to decode", archiverClass);
